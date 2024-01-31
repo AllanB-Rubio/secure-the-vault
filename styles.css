@@ -1,6 +1,14 @@
 body {
-background-color: #a4a4a4;}
+background-color: #9d9a9a;}
 
 h1 {
     color: rgb(8, 48, 129);
 }
+
+img{
+    display: none
+ }
+ 
+ span:hover + img{
+    display: block;
+ }

@@ -30,10 +30,10 @@ const num2 = 80 / 2;
 const num3 = 3 * 13;
 
 // Now create a variable that combines all three numbers
-const secretCombo = (num1 + " " + num2 + " " + num3);
+const secretCombo = (num1 + "-" + num2 + "-" + num3);
 
 // Website promp to user 
-prompt (" Accept Secret Message, Press OK to accept, Cancel to deny");
+prompt (" Secret Message Incoming, Press OK to accept, Cancel to deny");
 
 //If prompt accepted alert activates 
 alert ("You have received this message because you have been chosen to open an important vault. Here is the secret combination");
